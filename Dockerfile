@@ -1,12 +1,1 @@
-FROM n8nio/n8n
-
-ENV N8N_BASIC_AUTH_ACTIVE=true
-ENV N8N_BASIC_AUTH_USER=admin
-ENV N8N_BASIC_AUTH_PASSWORD=admin123
-ENV N8N_HOST=0.0.0.0
-ENV N8N_PORT=3000
-ENV WEBHOOK_URL=https://web-production-8c38.up.railway.app
-
-EXPOSE 3000
-
-CMD ["n8n", "start"]
+# disabled
